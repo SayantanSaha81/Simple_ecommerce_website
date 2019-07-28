@@ -113,6 +113,7 @@ header a:hover{
 #Showcase{
 	min-height: 400px;
 	background:url('../Img/ecommerce.jpg') no-repeat 0 -90px;
+	background-blend-mode: hard-light;
 	text-align: center;
 	text-decoration-style: solid;
 	text-decoration-color: #ffffff;
@@ -139,6 +140,35 @@ header a:hover{
 #Showcase1 p{
     text-align: center;
     
+}
+
+.container1{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	
+}
+
+.Box1{
+	order: 2;
+	align-items: center;
+	justify-content: center;
+	margin-right: 120px;
+
+
+}
+
+.Box2{
+	order: 1;
+	font-size: 40px;
+	text-align: center;
+}
+
+.Box3{
+	order: 3;
+
+	
 }
 
 #Showcase2 {
@@ -209,13 +239,15 @@ footer{
 
 #Products2{
 	background-color: #ffffff;
+	
 }
 
 #Products2 .box{
+	float: left;
 	margin-left: 30px;
-	float:left;
 	text-align: center;
-	width:30%;
+	width: 30%;
+	
 }
 
 #Products2 a{
